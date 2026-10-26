@@ -14,57 +14,42 @@
   h2 { font-size: 1.2rem; margin-top: 28px; }
   p, li { font-size: 0.95rem; }
   footer { margin-top: 48px; font-size: 0.85rem; color: #777; border-top: 1px solid #eee; padding-top: 12px; }
-  code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; font-size: 0.9rem; }
+  a { overflow-wrap: anywhere; }
 </style>
 </head>
 <body>
+<main>
+<h1>Privacy Policy — Chance</h1>
+<p><strong>Last updated:</strong> October 26, 2026</p>
+<p>This policy applies to <strong>Chance</strong>, the Android game developed by <strong>ChessWind</strong>. It describes the currently distributed version, 1.2.478 (701), including Google Play Games features. It does not describe planned advertising, purchases, or other unreleased features as active services.</p>
 
-<h1>Privacy Policy</h1>
-<p><strong>Last updated:</strong> June 28, 2026</p>
-<p>This privacy policy applies to the mobile game <strong>Chance</strong> (the "App"), developed by <strong>ChessWind</strong>.</p>
+<h2>Game data on your device</h2>
+<p>Chance stores game progress and preferences on your device so you can continue playing. This includes your chosen player name, language and audio settings, selected dice and other cosmetic items, unlocked items and in-game currency, roll and cashout totals, scores, achievements, current runs, and run history. Saves also contain run identifiers, timestamps and recovery/synchronization records. A locally generated profile identifier and the Play Games player identifier, when available, help keep local and signed-in progress associated with the appropriate profile.</p>
+<p>Local play does not require a separate ChessWind email/password account. The game does not request camera, microphone, contacts, or precise-location permissions.</p>
 
-<h2>Data Collection</h2>
-<p>The App <strong>does not collect, store, or transmit</strong> any personal information. Specifically:</p>
-<ul>
-  <li>❌ No analytics SDK (Google Analytics, Firebase, or similar)</li>
-  <li>❌ No advertising SDK (AdMob, Unity Ads, or similar)</li>
-  <li>❌ No third-party SDKs of any kind</li>
-  <li>❌ No user accounts or registration</li>
-  <li>❌ No email, phone, or location data collected</li>
-  <li>❌ No camera, microphone, or sensor access</li>
-  <li>❌ No tracking or profiling</li>
-</ul>
+<h2>Google Play Games and cloud synchronization</h2>
+<p>Chance integrates Google Play Games Services. Play Games can attempt to authenticate your existing Google Play Games profile when the game starts. When sign-in and connectivity are available, Chance uses your game-scoped Play Games player identifier to associate game data with that account.</p>
+<p>Saved Games sends game saves and run history, including the progress, player name and preferences described above, to Google's service for backup, restoration and synchronization. Scores and achievement progress can also be sent to Google during gameplay; this is not limited to opening the leaderboard screen. Offline changes can remain on the device and be sent after connectivity and the appropriate signed-in identity become available.</p>
+<p>Google processes your Play Games gamer identity and service diagnostics/usage data under its own policies. Leaderboard scores and Play Games profile information can be visible to other players according to Google's profile and leaderboard settings. Google documents HTTPS encryption in transit for Play Games Services data. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and <a href="https://developer.android.com/games/pgs/data-collection">Play Games Services data disclosures</a>.</p>
 
-<h2>Local Storage</h2>
-<p>The App stores the following data <strong>locally on your device only</strong>, using Godot Engine's built-in file system:</p>
-<ul>
-  <li>Player name (the name you choose in-game)</li>
-  <li>High scores and leaderboard entries</li>
-  <li>Language preference (English / Portuguese)</li>
-</ul>
-<p>This data never leaves your device unless you explicitly choose to submit a score to the optional online leaderboard (see below).</p>
+<h2>Advertising, purchases and analytics</h2>
+<p>The current version includes Google advertising, consent and Play Billing libraries, but advertising, rewarded ads and real-money purchases are disabled in Chance. The game does not currently request or show ads, or offer a live purchase flow. We will revise this policy for changes to these practices before enabling them in a distributed version.</p>
+<p>No separate ChessWind gameplay-telemetry upload service is enabled in this version. This does not mean that Google services collect no data: their account, service, diagnostic and usage processing is described above and in Google's policies.</p>
 
-<h2>Optional Leaderboard</h2>
-<p>The App includes an optional leaderboard feature that is <strong>disabled by default</strong>. If you enable it, your chosen player name and score are sent to a server to be displayed publicly alongside other players' scores. No additional information (device ID, IP address, or any identifier) is transmitted.</p>
-<p>You can disable the leaderboard feature at any time from within the App — no data is sent while it is turned off.</p>
+<h2>Support and external links</h2>
+<p>If you choose to email support, we receive your email address, message and any screenshots, files or diagnostic information you choose to include. We use that correspondence to investigate and respond to your request. Opening the support button opens your email application; it does not automatically send a message or attach your game saves. Please do not send passwords, access tokens or payment-card details.</p>
+<p>This policy is hosted on GitHub Pages. Opening it in a browser creates a request to that hosting service, which processes connection information under the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>. External Google pages and your email provider have their own privacy practices.</p>
 
-<h2>Internet Permission</h2>
-<p>The App requests the <code>INTERNET</code> permission solely for the optional leaderboard feature described above. No other network activity occurs.</p>
+<h2>Retention and deletion</h2>
+<p>Local progress is retained for continued play rather than expiring after a fixed number of days. Temporary caches and superseded recovery copies can be replaced or removed as the game manages storage. Clearing Android's cache is different from clearing the app's storage/data. Clearing app storage or uninstalling can remove local progress, but does not by itself delete Google-held game data; a later sign-in or platform restore can restore data.</p>
+<p>You can manage or delete Chance's Google Play Games data through your Play Games profile using <a href="https://support.google.com/googleplay/answer/9130646?hl=en">Google's game-data deletion instructions</a>. Google controls retention and deletion within its services. Deleting Play Games data does not necessarily delete a separate local copy, and signing out does not delete either copy. To avoid a retained copy being synchronized again, consider both local app data and the Google-held copy when requesting or performing deletion.</p>
+<p>The current game does not provide a single button that erases every local and cloud copy. Contact us below for help with access, correction or deletion of data associated with Chance. Support correspondence is separate from your game save and is not deleted by clearing app data. Contact us to request its deletion; we will explain any applicable retention or deletion limits, including data controlled by Google. Do not send your Google password.</p>
 
-<h2>Children's Privacy</h2>
-<p>The App does not knowingly collect any personal information from children under 13. If you believe a child has provided personal data, contact us and we will delete it.</p>
-
-<h2>Changes</h2>
-<p>This policy may be updated occasionally. Changes will be posted at this URL.</p>
-
-<h2>Contact</h2>
-<p>If you have questions about this privacy policy, contact us at:</p>
-<p><strong>Email:</strong> chesswind.dev@gmail.com<br>
-<strong>Developer:</strong> ChessWind</p>
-
-<footer>
-  &copy; 2026 ChessWind. All rights reserved.
-</footer>
-
+<h2>Changes and contact</h2>
+<p>Revisions will be published at this same URL. For privacy questions, support, or a request concerning your data, including concerns about a child's information, contact:</p>
+<p><strong>Developer:</strong> ChessWind<br>
+<strong>Email:</strong> <a href="mailto:shad.ishtaryu@gmail.com">shad.ishtaryu@gmail.com</a></p>
+</main>
+<footer>&copy; 2026 ChessWind. All rights reserved.</footer>
 </body>
 </html>
